@@ -29,7 +29,7 @@ public class MainController {
 		n.setNome(nome);
 		n.setTelefone(telefone);
 		userRepository.save(n);
-		return "Novo registro gravado.";
+		return MsgsConstantes.SUCESSO;
 	}
 	
 	@GetMapping(path="/all")
@@ -39,8 +39,25 @@ public class MainController {
 	}
 	
 	@GetMapping(path="/getById")
-	public @ResponseBody User getUserById(Integer id) {
-		// This returns a user with the specified id
+	public @ResponseBody User getUserById(Long id) {
+		// Isto retorna um usuário com a ID especificada.
 		return userRepository.findById(id);
+	}
+	
+	@GetMapping(path="/deleteById")
+	public @ResponseBody String deleteUserById(Long id) {
+		// Isto deleta um usuário/registro com a ID especificada.
+		userRepository.delete(id);
+		return MsgsConstantes.APAGADO;
+	}
+	
+	@GetMapping(path="/updateById")
+	public @ResponseBody String updateUserById(User user) {
+		if (user.getId() == null) {
+			return "Erro";
+		}else{
+			userRepository.save(user);
+		}
+		return MsgsConstantes.SUCESSO;
 	}
 }

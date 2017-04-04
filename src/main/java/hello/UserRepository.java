@@ -13,7 +13,7 @@ public interface UserRepository extends CrudRepository<User, Long/*Integer*/> {
 	 * @param id
 	 * @return
 	 */
-	public User findById(Integer id);
+	public User findById(Long id);
 	// Equivalente à consulta SQL: SELECT * FROM User WHERE id = ?;
 	 
 }
