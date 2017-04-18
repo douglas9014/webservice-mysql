@@ -1,0 +1,7 @@
+META-INF/spring-configuration-metadata.json
+hello/User.class
+hello/MsgsConstantes.class
+hello/MainController.class
+hello/Application.class
+hello/UserRepository.class
+hello/DatabaseConfig.class
