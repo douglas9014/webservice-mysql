@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 /home/douglas/GitHub/webservice-mysql/src/main/java/hello/MsgsConstantes.java
 /home/douglas/GitHub/webservice-mysql/src/main/java/hello/UserRepository.java
 /home/douglas/GitHub/webservice-mysql/src/main/java/hello/User.java
 /home/douglas/GitHub/webservice-mysql/src/main/java/hello/MainController.java
 /home/douglas/GitHub/webservice-mysql/src/main/java/hello/Application.java
+=======
+/media/douglas/DOUGLAS F/EBM/GitHub/webservice-mysql/src/main/java/hello/DatabaseConfig.java
+/media/douglas/DOUGLAS F/EBM/GitHub/webservice-mysql/src/main/java/hello/User.java
+/media/douglas/DOUGLAS F/EBM/GitHub/webservice-mysql/src/main/java/hello/MsgsConstantes.java
+/media/douglas/DOUGLAS F/EBM/GitHub/webservice-mysql/src/main/java/hello/MainController.java
+/media/douglas/DOUGLAS F/EBM/GitHub/webservice-mysql/src/main/java/hello/UserRepository.java
+/media/douglas/DOUGLAS F/EBM/GitHub/webservice-mysql/src/main/java/hello/Application.java
+>>>>>>> 132ca0a0187f519ec563c15f60a9629b9d986fb9

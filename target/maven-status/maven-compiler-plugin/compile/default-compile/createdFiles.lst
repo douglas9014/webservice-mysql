@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 hello/MsgsConstantes.class
+=======
+META-INF/spring-configuration-metadata.json
+hello/User.class
+hello/MsgsConstantes.class
+hello/MainController.class
+hello/Application.class
+hello/DatabaseConfig.class
+>>>>>>> 132ca0a0187f519ec563c15f60a9629b9d986fb9
 hello/UserRepository.class
